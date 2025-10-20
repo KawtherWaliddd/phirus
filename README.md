@@ -56,7 +56,8 @@ Built with clean and responsive design principles for smooth performance on all 
 ##  Demo Video
 
 Watch **Phirus App** in action:  
-👉 [https://drive.google.com/file/d/1J1GdFu2gwCdcdcnJmGos-DlV2VUKroS8/view?usp=drive_link](#)  
+👉 [Click here to watch the demo](https://drive.google.com/file/d/1J1GdFu2gwCdcdcnJmGos-DlV2VUKroS8/view?usp=drive_link)
+
 
 ---
 
