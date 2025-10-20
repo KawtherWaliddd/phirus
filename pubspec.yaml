@@ -1,0 +1,90 @@
+name: phirus
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.17
+
+
+  flutter_screenutil: ^5.9.3
+  cupertino_icons: ^1.0.8
+  device_preview: ^1.2.0
+  modal_progress_hud_nsn: ^0.5.1
+  dio: ^5.8.0+1
+  file_picker: ^10.2.0
+  image_picker: ^1.1.2
+  pretty_dio_logger: ^1.4.0
+  flutter_native_splash: ^2.4.6
+
+
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+
+
+
+
+  flutter_lints: ^5.0.0
+
+flutter_native_splash: 
+  color: "#1C1F3B" 
+  image: assets/images/splash_screen.png
+  android_12:
+    image: assets/images/splash_screen.png
+    color: "#1C1F3B"
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+
+
+  assets:
+   
+    - assets/images/
+    - assets/images/icons/
+    
+    
+
+  fonts:
+    - family: Poly
+      fonts:
+        - asset: assets/fonts/Poly-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+
+
+
+
+
+
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/resources/
+  filename: app_images.dart
+  field_prefix:       

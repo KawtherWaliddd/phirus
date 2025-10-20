@@ -1,0 +1,11 @@
+const String splash = 'splash';
+const String homeScreen = 'homeScreen';
+const String onboarding = 'onboarding';
+const String spf = 'spf';
+const String attachmentView = 'attachmentView';
+const String imageView = 'imageView';
+const String bodyView = 'bodyView';
+const String sslView = 'sslView';
+const String attachmentResultView = 'attachmentResultView';
+const String statusImageScreen = 'statusImageScreen';
+const String sslResultScreen = 'sslResultScreen';
