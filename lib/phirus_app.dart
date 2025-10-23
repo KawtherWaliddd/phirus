@@ -1,6 +1,8 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:phirus/core/routing/app_router.dart';
+import 'package:phirus/core/utils/constants.dart';
 import 'package:phirus/features/splash/presentaion/views/splash_screen.dart';
 
 class PhirusApp extends StatelessWidget {
@@ -18,6 +20,8 @@ class PhirusApp extends StatelessWidget {
           builder: DevicePreview.appBuilder,
           debugShowCheckedModeBanner: false,
           home: child,
+          initialRoute: splash,
+          onGenerateRoute: AppRouter().ongenrateRoute,
         );
       },
       child: SplashScreen(),

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:phirus/core/utils/constants.dart';
-import 'package:phirus/features/header/whios/presentation/views/whios_lookup_result_screen.dart';
 import 'package:phirus/core/theme/app_text_style.dart';
 import 'package:phirus/core/shared/button_widget.dart';
 import 'package:phirus/core/shared/input_scan_widget.dart';

@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
-import 'package:phirus/core/network/error/exeptions.dart';
+import 'package:phirus/core/error/exeptions.dart';
 import 'package:phirus/core/network/api_client.dart';
 import 'package:phirus/core/network/api_config.dart';
 import 'package:phirus/features/header/heder_info/data/model/heder_model.dart';

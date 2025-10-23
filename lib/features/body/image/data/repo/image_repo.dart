@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:phirus/core/network/error/exeptions.dart';
+import 'package:phirus/core/error/exeptions.dart';
 import 'package:phirus/core/network/api_client.dart';
 import 'package:phirus/core/network/api_config.dart';
 import 'package:phirus/features/body/image/data/model/stegnography_image_model.dart';

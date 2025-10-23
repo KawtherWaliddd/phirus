@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:phirus/core/network/error/exeptions.dart';
+import 'package:phirus/core/error/exeptions.dart';
 import 'package:phirus/core/network/api_config.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
